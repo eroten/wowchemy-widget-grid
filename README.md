@@ -1,15 +1,25 @@
-# Wowchemy Widget Starter Template
+# Goal  
+
+Add a section to home page with most recent visuals (the "featured.png" for posts, projects, AND talks) in a clean grid. Clicking on the image takes you to its home page.  
+
+- Use [hugrid](https://github.com/aerohub/hugrid) for general layout and functionality  
+- Use existing syntax to fetch images and links. See 
+  - wowchemy/layouts/partials/li_card.html
+  - wowchemy/layouts/partials/portfolio_li_showcase.html
+  - wowchemy/layouts/partials/widgets/portfolio.html
+  
+## Wowchemy Widget Starter Template
 
 **Looking to build and publish a [Wowchemy](https://wowchemy.com) widget that doesn’t exist yet?**
 
 _[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful website for free. Edit your site in Markdown, Jupyter, or RStudio, generate it with Hugo, and deploy with GitHub or Netlify. Customize anything on your site with widgets, themes, and language packs._
 
-## 👉 Core Concepts
+### 👉 Core Concepts
 
 - Each Wowchemy widget consists of an HTML file
 - You may use [Go Templating](https://gohugo.io/templates/introduction/) and [Bootstrap](https://getbootstrap.com/docs/4.5/layout/grid/) layouts to design the widget HTML
 
-## 🧑‍🎨 Create a Widget
+### 🧑‍🎨 Create a Widget
 
 1. Click the [_Use This Template_](https://github.com/wowchemy/wowchemy-widget-starter/generate) button on GitHub
    1. Name your repository `wowchemy-widget-<WIDGET-NAME>` where `<WIDGET-NAME>` is an appropriate name for your widget
@@ -24,7 +34,7 @@ _[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful websit
    - You can access page and section (widget instance) variables using `$page` and `$section`, respectively
    - Check out the [built-in widgets](https://github.com/wowchemy/wowchemy-hugo-modules/tree/master/wowchemy/layouts/partials/widgets) for inspiration
 
-### Example
+#### Example
 
 Say your GitHub username is `pikachu` and you wish to create a widget named `pokemon`:
 
@@ -34,7 +44,7 @@ Say your GitHub username is `pikachu` and you wish to create a widget named `pok
 1. We customize the HTML in `github.pikachu.pokemon.html`
 1. We add the widget to our site and share the widget with the community following the guide below
 
-## 🌈 Add the Widget to your Site
+### 🌈 Add the Widget to your Site
 
 1. Install your widget in your site by referencing it at the bottom of your `config/_defaults/config.toml`:
    ```toml
@@ -66,6 +76,6 @@ Say your GitHub username is `pikachu` and you wish to create a widget named `pok
    Welcome to my new widget!
    ```
 
-## 📢 Share your widget
+### 📢 Share your widget
 
 Share your widget with the community on [Discord](https://discord.gg/z8wNYzb) and [Twitter](https://twitter.com/intent/tweet?text=I%27m%20creating%20a%20beautiful%20website%20widget%20using%20the%20free%20%E2%9D%A4%EF%B8%8F%2C%20open%20source%20%40wowchemy%20Website%20Builder%20for%20%40GoHugoIO%20by%20%40GeorgeCushen%20%E2%9C%A8%20Have%20some%20feedback%3F%20Please%20comment%20%F0%9F%A4%97&hashtags=MadeWithWowchemy&url=https://wowchemy.com/).
