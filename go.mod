@@ -1,3 +1,3 @@
-module github.com/wowchemy/wowchemy-widget-starter
+module https://github.com/eroten/wowchemy-widget-grid
 
 go 1.15
